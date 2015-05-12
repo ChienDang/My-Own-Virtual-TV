@@ -1,4 +1,5 @@
-﻿  MyOwn.cpp
+﻿  ImageOperators.cpp
+  MyOwn.cpp
 MyOwn.cpp(1): warning C4005: 'UNICODE' : macro redefinition
           command-line arguments :  see previous definition of 'UNICODE'
 MyOwn.cpp(2): warning C4005: '_UNICODE' : macro redefinition
@@ -9,10 +10,11 @@ MyOwn.cpp(1): warning C4603: 'UNICODE' : macro is not defined or definition is d
 MyOwn.cpp(2): warning C4603: '_UNICODE' : macro is not defined or definition is different after precompiled header use
           Add macro to precompiled header instead of defining here
           MyOwn.cpp(3) : use of precompiled header
-MyOwn.cpp(274): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-MyOwn.cpp(275): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-MyOwn.cpp(276): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-MyOwn.cpp(285): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+MyOwn.cpp(237): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+MyOwn.cpp(238): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+MyOwn.cpp(239): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+MyOwn.cpp(248): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+  Generating Code...
 c:\opencv2410\opencv\build\include\opencv2\core\types_c.h(311): warning C4793: 'cvRound' : function compiled as native :
   	Found an intrinsic not supported in managed code
 c:\opencv2410\opencv\build\include\opencv2\core\types_c.h(311): warning C4793: 'cvRound' : function compiled as native :

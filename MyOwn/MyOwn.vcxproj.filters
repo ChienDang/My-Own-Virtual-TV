@@ -24,7 +24,7 @@
     <ClInclude Include="resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Zoom.h">
+    <ClInclude Include="ImageOperators.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -43,7 +43,7 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Zoom.cpp">
+    <ClCompile Include="ImageOperators.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
