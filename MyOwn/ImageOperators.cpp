@@ -1,5 +1,7 @@
 #include "stdafx.h"
 #include "ImageOperators.h"
+
+using namespace cv;
 double angle(cv::Point pt1, cv::Point pt2, cv::Point pt0)
 {
 	double dx1 = pt1.x - pt0.x;
@@ -34,4 +36,34 @@ void sortCorners(std::vector<cv::Point2f>& corners, cv::Point2f center)
 		corners.push_back(br);
 		corners.push_back(bl);
 	}
+}
+Mat ZoomIn(Mat src1, int k1){
+	Mat dst;
+	while (true)
+	{
+		int c;
+		c = waitKey(10);
+		if ((char)c == 27)
+		{
+			break;
+		}
+		pyrUp(src1, dst, Size(src1.cols * k1, src1.rows * k1));
+
+	}
+	return dst;
+}
+Mat ZoomOut(Mat src2, int k2){
+	Mat dst;
+	while (true)
+	{
+		int c;
+		c = waitKey(10);
+		if ((char)c == 27)
+		{
+			break;
+		}
+		pyrDown(src2, dst, Size(src2.cols / k2, src2.rows / k2));
+
+	}
+	return dst;
 }
